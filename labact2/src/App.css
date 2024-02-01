@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.Card {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-color: white;
+  box-shadow: 10px;
+}
+.Content {
+  text-align: center;
+}
+footer {
+  background-color: #FFC72C;
+  color: #090909;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 85px;
+  padding: 10px;
+}
+
+.footer-text {
+  font-size: 9px;
+  margin: 0;
+  font-family: "Brandon Grotesque", "brandon-grotesque", Helvetica, sans-serif;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link {
+  color: #0c0b0b;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-family: "Brandon Grotesque", "brandon-grotesque", Helvetica, sans-serif;
+}
