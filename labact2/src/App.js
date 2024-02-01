@@ -4,6 +4,7 @@ import Body from "./Body.js";
 import Cards from "./Cards.js";
 import Footer from "./Footer.js"
 import Content from "./Content.js";
+import Jobs from './Jobs.js';
 import Button from "react-bootstrap/Button";
 
 
@@ -18,6 +19,7 @@ function App() {
     <div>
       <Title  intro= "Our Product And Services"/>
     </div>
+    <Jobs />
     <Footer />
     </div>
   );

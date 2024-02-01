@@ -6,7 +6,7 @@ function Cards() {
   return (
      <CardGroup>
       <Card className="mx-3 mt-5">
-         <Card.Img variant="top" src="assets/Map.jpeg" />
+         <Card.Img variant="top" src="assets/Map.jpeg" rounded/>
          <Card.Body>
            <Card.Title className='text-danger fs-6 fw-bold'>1992</Card.Title>
            <Card.Text>
@@ -16,35 +16,31 @@ function Cards() {
          </Card.Body>
        </Card>
        <Card className="mx-3 mt-5">
-         <Card.Img variant="top" src="assets/Store.jpeg" />
+         <Card.Img variant="top" src="assets/Store.jpeg" rounded/>
          <Card.Body>
          <Card.Title className='text-danger fs-6 fw-bold'>1996</Card.Title>
           <Card.Text>
-             This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+          Dr. George T. Yang believes in giving back to communities and launches Ronald McDonald
+          House Charities (RMHC) in the Philippines.
           </Card.Text>
          </Card.Body>
       </Card>
       <Card className="mx-3 mt-5">
-        <Card.Img variant="top" src="assets/Tao.jpeg" />
+        <Card.Img variant="top" src="assets/Tao.jpeg" rounded/>
       <Card.Body>
       <Card.Title className='text-danger fs-6 fw-bold'>2005</Card.Title>
-  <Card.Text>
-           This is a wider card with supporting text below as a natural lead-in
-          to additional content. This card has even longer content than the
-          first to show that equal height action.
+         <Card.Text>
+         McDonald's Philippines proudly becomes 100% Filipino-owned.
          </Card.Text>
         </Card.Body>
 
       </Card>
       <Card className="mx-3 mt-5">
-     <Card.Img variant="top" src="assets/Big.jpeg" />
+     <Card.Img variant="top" src="assets/Big.jpeg" rounded/>
         <Card.Body>
         <Card.Title className='text-danger fs-6 fw-bold'>2019</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-          first to show that equal height action.
+          Today, McDonald's continues to create feel-good moments for Filipino families in over 600 restaurants nationwide.
           </Card.Text>
         </Card.Body>
        </Card>

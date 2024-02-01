@@ -28,6 +28,12 @@ const Footer = () => {
           <a href="#" className="footer-link">
             Terms & Conditions
           </a>
+          <a href="#" className="footer-link">
+            Find A Store
+          </a>
+          <a href="#" className="footer-link">
+            Download The App
+          </a>
         </div>
       </div>
     </footer>

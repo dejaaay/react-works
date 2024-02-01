@@ -9,11 +9,12 @@
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   border-color: white;
-  box-shadow: 10px;
+  box-shadow: 100px;
 }
 .Content {
   text-align: center;
 }
+
 footer {
   background-color: #FFC72C;
   color: #090909;
@@ -31,7 +32,7 @@ footer {
 }
 
 .footer-text {
-  font-size: 9px;
+  font-size: 10px;
   margin: 0;
   font-family: "Brandon Grotesque", "brandon-grotesque", Helvetica, sans-serif;
 }
